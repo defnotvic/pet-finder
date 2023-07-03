@@ -1,0 +1,34 @@
+
+cadastro de usuário e cadastro do pet [check]
+mapa de geolocalização simulada [check]
+indicador de distância até o pet [check]
+notificações de quando encontrar ou perder o pet (ficar em algum lugar uma mensagem dizendo a situação) [quase-check]
+última localização registrada [check]
+exibição da porcentagem da bateria do localizador do pet [check]
+
+
+página de cadastro do usuário,
+a página de cadastro do pet e a página principal com o mapa
+de geolocalização simulada e informações do pet.
+Informações do pet: Idade, peso, comprimento, cor primária,
+nome, comportamento e etc.
+Informações do dono: Dados básicos de cadastramento,
+pessoais e de moradia
+
+
+indicador de distância até o pet,
+notificações de quando encontrar ou perder o pet, exibição da
+última localização registrada e exibição da porcentagem da
+bateria do localizador do pet
+
+
+                    <div class="card">
+                        <h5>Bateria</h5>
+                        <input type="text" value="4 People" id="people">
+                        <button id="people_less">Less</button>
+                        <button id="people_more">More</button>
+                    </div>
+
+
+Ao passar o mouse por cima do ICON de informação aparecer um pop-up mostrando mais informaçoes
+sobre o dog desaparecido
